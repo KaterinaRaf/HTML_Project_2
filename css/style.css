@@ -57,7 +57,7 @@ text-decoration: none;
 }
 /* ================= END Header MENU ================== */
 
-/* ================= Header ================== */
+/* ================= TOP content ================== */
 
 .page-top-content {
 height: 764px;
@@ -104,3 +104,72 @@ color: #222222;
 color: #F16D7F;
 font-style: normal;
 }
+/* ================= END TOP content ================== */
+
+/* ================= content MENU ================== */
+
+.content-menu {
+padding-top: 65px;
+max-width: 1140px;
+height: 470px;
+margin: 0 auto;
+}
+
+.content-memu-items {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+
+.content-menu-item {
+position: relative;
+display: inline-block;
+}
+
+.content-menu-pic {
+-webkit-filter: brightness(45%);
+}
+
+.content-menu-pic:hover {
+-webkit-filter: brightness(100%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.content-menu-txt {
+position: absolute;
+top: 105px;
+left: 0;
+width: 100%;
+margin: 0 auto;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.content-menu-txt em {
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #F16D7F;
+font-style: normal;
+}
+
+/* ================= END content MENU ================== */
+
+/* ================= content ================== */
+
+
+
+
+/* ================= END content ================== */

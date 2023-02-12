@@ -13,7 +13,7 @@ body {
     margin: 0px auto;
     }
 
-/* ================= Header ================== */
+/* ================= Header MENU ================== */
 
 .page-top {
 height: 75px;
@@ -54,4 +54,53 @@ list-style: none;
 
 .menu-item-link {
 text-decoration: none;
+}
+/* ================= END Header MENU ================== */
+
+/* ================= Header ================== */
+
+.page-top-content {
+height: 764px;
+max-width: 100vw;
+background-color: #F1E4E6;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 64px;
+}
+
+.top-border-txt {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.Border {
+width: 12px; 
+height: 92px; 
+background-color: #F16D7F;
+}
+
+.top-content-txt {
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Big {
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+color: #222222;
+}
+
+.Normal {
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #222222;
+}
+
+.Normal em {
+color: #F16D7F;
+font-style: normal;
 }

@@ -292,6 +292,11 @@ border: 1px solid #9F9F9F;
 
 .content-item:hover .content-photo {
 -webkit-filter: brightness(20%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
 }
 .content-item:hover .products-item-btn {
 display: flex;
@@ -362,7 +367,7 @@ color: #F26376;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19,2px;
+line-height: 19px;
 text-align: center;
 word-break: break-all;
 }

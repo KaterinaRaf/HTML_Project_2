@@ -238,10 +238,6 @@ position: relative;
 -webkit-filter: brightness(100%);
 }
 
-.content-photo:hover  {
--webkit-filter: brightness(20%);
-}
-
 .content-item-title {
 display: block;
 font-weight: 400;
@@ -294,9 +290,11 @@ background-color: #9F9F9F;
 border: 1px solid #9F9F9F;
 }
 
-
+.content-item:hover .content-photo {
+-webkit-filter: brightness(20%);
+}
 .content-item:hover .products-item-btn {
-display: flex
+display: flex;
 }
 .content-item:hover .products-item-btn:hover {
 background-color: #ccc;

@@ -1,17 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    }
+margin: 0;
+padding: 0;
+}
 
 body {
-    font-family: Late;
-    }
+font-family: Late;
+}
 
 .center {
-    width: 100%;
-    max-width: 1172px;
-    margin: 0px auto;
-    }
+width: 100%;
+max-width: 1172px;
+margin: 0px auto;
+}
 
 /* ================= Header MENU ================== */
 
@@ -442,6 +442,7 @@ line-height: 29px;
 .content-menu{
 height: 303px;
 }
+
 .content-memu-items {
 gap: 19px;
 }
@@ -519,7 +520,6 @@ padding-left: 16px;
 .page-top-content {
 height: 363px;
 gap: 0px;
-
 }
 
 .top-border-txt {
@@ -615,7 +615,5 @@ margin-bottom: 17px;
 .content-price {
 margin-bottom: 20px;
 }
-
 }
-
 /* ================= END Mobile ver ================== */

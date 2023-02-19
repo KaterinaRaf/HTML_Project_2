@@ -83,6 +83,7 @@ background-color: #F16D7F;
 }
 
 .top-content-txt {
+text-transform: uppercase;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -166,6 +167,7 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 color: #FFFFFF;
+text-transform: uppercase;
 }
 
 .content-menu-txt em {
@@ -387,6 +389,8 @@ color: #F26376;
 
 /* ================= END content ================== */
 
+/* ================= Tablet ver content ================== */
+
 @media (max-width: 1024px) {
 .center {
 max-width: 1024px;
@@ -486,4 +490,132 @@ margin: 0 auto 18px 16px;
 margin: 0 auto auto 16px;
 }
 }
+/* ================= END Tablet ver ================== */
 
+/* ================= Mobile ver ================== */
+@media (max-width: 767px) {
+
+.hide {
+display: none;
+}
+
+.center {
+max-width: 767px;
+}
+
+.page-top-menu {
+justify-content: space-between;
+}
+
+.menu-main {
+padding-left: 16px;
+}
+
+.menu {
+justify-content: flex-end;
+padding-left: 16px;
+}
+
+.page-top-content {
+height: 363px;
+gap: 0px;
+
+}
+
+.top-border-txt {
+max-width: 308px;
+gap: 15px;
+}
+
+.Border {
+height: 61px; 
+}
+
+.top-content-txt {
+text-shadow: none;
+}
+
+.Big {
+font-size: 38px;
+line-height: 44px;
+}
+
+.Normal {
+font-size: 20px;
+line-height: 24px;
+}
+
+.content-menu {
+height: 950px;
+}
+
+.content-memu-items {
+margin: 0 16px;
+gap: 32px;
+}
+
+.content-menu-pic {
+height: 249px;
+width: 344px;
+}
+
+.content-menu-pic1 {
+height: 111px;
+width: 344px;
+}
+
+.content-menu-txt {
+top: 105px;
+}
+
+.content-menu-txt-moby {
+top: 35px;
+}
+
+.main-content {
+padding-top: 64px;
+}
+
+.content-title {
+padding-bottom: 3px;
+}
+
+.content-subtitle {
+padding-bottom: 64px;
+}
+
+.content-items {
+width: 100vw;
+max-width: 767px;
+min-width: 320px;
+margin: 0 auto;
+flex-direction: column;
+gap: 15px;
+}
+
+.content-item {
+width: 359px;
+height: 579px;
+margin: 0 auto 25px auto;
+}
+
+.content-photo {
+width: 359px;
+height: 418px;
+}
+
+.content-item-title {
+margin-bottom: 12px;
+}
+
+.content-txt {
+margin-bottom: 17px;
+}
+
+.content-price {
+margin-bottom: 20px;
+}
+
+}
+
+/* ================= END Mobile ver ================== */

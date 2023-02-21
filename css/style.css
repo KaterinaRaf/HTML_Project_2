@@ -571,7 +571,17 @@ margin: 24px auto;
 }
 
 .footer-item {
-list-style: none; 
+list-style: none;
+width: 32px;
+height: 32px;
+background-color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-icon {
+
 }
 
 .footer-link {

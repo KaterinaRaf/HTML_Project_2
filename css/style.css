@@ -360,7 +360,7 @@ margin: 0 11px 0 0;
 display: block;
 width: 100%;
 max-width: 211px;
-margin: 0 auto;
+margin: 0 auto 95px auto;
 padding: 14.5px;
 background-color: #fff;
 border: 2px solid #F26376;
@@ -388,6 +388,47 @@ color: #F26376;
 
 
 /* ================= END content ================== */
+
+/* ================= Service ================== */
+
+.service {
+background-color: #222224;
+height: 341px;
+width: 100vw;
+max-width: 1140px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+}
+
+.service-items {
+list-style: none;
+}
+
+.service-item {
+max-width: 360px;
+height: 134px;
+margin: 103px auto;
+}
+
+.service-title {
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FBFBFB;
+}
+
+.service-txt {
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+}
+
+/* ================= END Service ================== */
 
 /* ================= Tablet ver content ================== */
 

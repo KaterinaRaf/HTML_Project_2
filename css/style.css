@@ -543,9 +543,40 @@ color: #FFFFFF;
 
 /* ================= Footer ================== */
 
+.footer {
+background-color: #222224;
+height: 79px;
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 
+.copy-right {
+max-width: 332px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FBFBFB;
+margin: 30px auto;
+}
 
+.footer-icons {
+max-width: 148px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+gap: 7px;
+margin: 24px auto;
+}
 
+.footer-item {
+list-style: none; 
+}
+
+.footer-link {
+text-decoration: none;
+}
 
 /* ================= END Footer ================== */
 

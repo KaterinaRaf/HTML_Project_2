@@ -581,7 +581,22 @@ align-items: center;
 }
 
 .footer-icon {
+    fill: #000000;
+}
+.footer-item:hover {
+background-color: #F16D7F;
+}
 
+.footer-item:hover .footer-icon {
+    fill: #FFFFFF;
+}
+
+.footer-item:active {
+background-color: #FFFFFF;
+}
+
+.footer-item:active .footer-icon {
+    fill: #F16D7F;
 }
 
 .footer-link {

@@ -55,6 +55,19 @@ list-style: none;
 .menu-item-link {
 text-decoration: none;
 }
+
+.top-menu-icon {
+fill: #E8E8E8;
+}
+
+.top-menu-icon:hover {
+fill: green;
+}
+
+.top-menu-icon:active {
+fill: purple;
+}
+
 /* ================= END Header MENU ================== */
 
 /* ================= TOP content ================== */
@@ -112,7 +125,6 @@ font-style: normal;
 .content-menu {
 padding-top: 65px;
 max-width: 1140px;
-height: 470px;
 margin: 0 auto;
 }
 

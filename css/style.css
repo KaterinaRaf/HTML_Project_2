@@ -32,7 +32,6 @@ gap: 41px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
-gap: 41px;
 max-width: 111px;
 max-height: 38px;
 padding-top: 18px;
@@ -72,6 +71,7 @@ fill: red;
 width: 26px;
 min-height: 26px;
 position: relative;
+padding-top: 8px;
 }
 
 .page-header-search-form:hover svg {

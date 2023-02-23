@@ -1144,6 +1144,10 @@ margin-bottom: 17px;
 margin-bottom: 20px;
 }
 
+.service-option {
+width: 100vw;
+}
+
 .service-item {
 max-width: 348px;
 height: 130px;
@@ -1161,7 +1165,7 @@ margin: 0 auto;
 
 .about {
 height: 550px;
-background-image: url("../img/Footer_back-ground-moby.png");
+width: 100vw;
 }
 
 .author {
@@ -1198,6 +1202,7 @@ min-height: 47px;
 
 .footer {
 height: 143px;
+width: 100vw;
 flex-direction: column-reverse;
 justify-content: center;
 }

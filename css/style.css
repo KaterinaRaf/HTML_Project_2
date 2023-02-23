@@ -67,6 +67,14 @@ fill: orange;
 fill: red;
 }
 
+.main-page-icon:hover {
+-webkit-filter: brightness(50%);
+}
+
+.main-page-icon:active {
+-webkit-filter: brightness(2%);
+}
+
 .page-header-search-form {
 width: 26px;
 min-height: 26px;
